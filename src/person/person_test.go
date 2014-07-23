@@ -1,8 +1,12 @@
 package person
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestNewPerson(t *testing.T) {
-	// TODO:
-	t.Error("expected...")
+	fmt.Println("Test started...")
+
+	t.Error("expected something...")
 }

@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	age := 28
+	age := 26
 	name := "Ondřej"
 
 	ondrej := person.New(name, age)
